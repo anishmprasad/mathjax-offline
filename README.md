@@ -10,4 +10,4 @@ import "mathjax-offline/v2.7.x/MathJax.js?config=TeX-AMS-MML_HTMLorMML&dummy=.js
 
 # Licence
 
-Apache 2.0
+MIT
