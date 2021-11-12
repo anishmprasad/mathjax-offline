@@ -8,7 +8,7 @@ A Mathjax Port for self hosted system
 import "mathjax-offline/v2.7.x/MathJax.js?config=TeX-AMS-MML_HTMLorMML&dummy=.js";
 
 
-Config
+// Config
 
 window.MathJax = {
 	skipStartupTypeset: true,
