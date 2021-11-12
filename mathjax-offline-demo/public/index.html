@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <!-- <link rel="icon" href="%PUBLIC_URL%/favicon.ico" /> -->
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#000000" />
+    <meta
+      name="description"
+      content="Web site created using create-react-app"
+    />
+    <!-- <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" /> -->
+    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+    <title>mathjax offline demo</title>
+  </head>
+  <body>
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <div id="root"></div>
+    <script type="text/x-mathjax-config">
+      window.MathJax = {
+        skipStartupTypeset: true,
+        messageStyle: 'none',
+        showMathMenu: true,
+        //jax: ['input/TeX', 'input/MathML', 'output/CommonHTML'],
+        extensions: ['tex2jax.js', 'mml2jax.js', 'MathMenu.js', 'MathZoom.js'],
+        TeX: {
+          extensions: ['AMSmath.js', 'AMSsymbols.js', 'noErrors.js', 'noUndefined.js'],
+        },
+        tex2jax: {
+          preview: 'none',
+          inlineMath: [
+            ['$', '$'],
+            ['\\(', '\\)'],
+          ],
+        },
+        jax: ['input/TeX', 'input/MathML', 'output/SVG'],
+        SVG: {
+          fontCache: 'global',
+          scale: 100,
+          undefinedFamily: "STIXGeneral, 'Arial Unicode MS', serif",
+          font: 'STIX-Web',
+          mtextFontInherit: true,
+          matchFontHeight: true,
+        },
+        root: getRootPath(),
+        AuthorInit: function () {
+          window.MathJax.Hub.Register.MessageHook('Math Processing Error', function (message) {
+            //  do something with the error.  message[2] is the Error object that records the problem.
+            console.log('Math Processing Error', message);
+          });
+        },
+      };
+
+      function getRootPath() {
+        return ''
+      }
+    </script>
+  </body>
+</html>
