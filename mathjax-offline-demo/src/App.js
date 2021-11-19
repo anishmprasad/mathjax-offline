@@ -45,15 +45,30 @@ function App() {
         </div>
 
 
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
 
         <div>
           <b>normal with underscore</b>
           <p>If <math xmlns="http://www.w3.org/1998/Math/MathML"><mi>A</mi><mo>+</mo><mi>B</mi><mo>=</mo><mn>90</mn><mo>&#176;</mo></math>, then fill up the blank</p><p><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>cot</mi><mi>A</mi><mo>=</mo></math>_____.</p>
         </div>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
 
         <b>with injected span</b>
         <div dangerouslySetInnerHTML={{ __html: preprocessFbBody(text).processedText }} />
 
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
 
         <div>
           <b>Table</b><br/>
@@ -107,6 +122,11 @@ function App() {
           </math>
         </div>
 
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
 
 
         <div>
@@ -152,6 +172,11 @@ function App() {
           </math>
         </div>
 
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
 
 
 
@@ -306,6 +331,11 @@ function App() {
           </math>
         </div>
 
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
 
 
 
@@ -335,6 +365,11 @@ function App() {
           </math>
         </div>
 
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
 
 
         <div id="Indentation">
@@ -371,6 +406,11 @@ function App() {
           </math>
         </div>
 
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
 
         <div id="style">
           <b>Style</b><br></br>
