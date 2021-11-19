@@ -29,7 +29,7 @@ function App() {
         totalBlanks: blanks.length,
     };
 }
-  const text = `If <math xmlns="http://www.w3.org/1998/Math/MathML"><mi>A</mi><mo>+</mo><mi>B</mi><mo>=</mo><mn>90</mn><mo>&#176;</mo></math>, then fill up the blank&nbsp;with a suitable trigonometric ratio of the complementary angle.</p>\n\n<p><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>cot</mi><mi>A</mi><mo>=</mo></math>_____.</p>`
+  const text = `If <math xmlns="http://www.w3.org/1998/Math/MathML"><mi>A</mi><mo>+</mo><mi>B</mi><mo>=</mo><mn>90</mn><mo>&#176;</mo></math>, then fill up the blank</p>\n\n<p><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>cot</mi><mi>A</mi><mo>=</mo></math>_____.</p>`
   return (
     <div className="App">
         <div>
@@ -48,7 +48,7 @@ function App() {
 
         <div>
           <b>normal with underscore</b>
-          <p>If <math xmlns="http://www.w3.org/1998/Math/MathML"><mi>A</mi><mo>+</mo><mi>B</mi><mo>=</mo><mn>90</mn><mo>&#176;</mo></math>, then fill up the blank&nbsp;with a suitable trigonometric ratio of the complementary angle.</p><p><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>cot</mi><mi>A</mi><mo>=</mo></math>_____.</p>
+          <p>If <math xmlns="http://www.w3.org/1998/Math/MathML"><mi>A</mi><mo>+</mo><mi>B</mi><mo>=</mo><mn>90</mn><mo>&#176;</mo></math>, then fill up the blank</p><p><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>cot</mi><mi>A</mi><mo>=</mo></math>_____.</p>
         </div>
 
         <b>with injected span</b>
