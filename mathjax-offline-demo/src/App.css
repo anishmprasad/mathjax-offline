@@ -36,3 +36,23 @@
     transform: rotate(360deg);
   }
 }
+
+
+#fb-blank-0{
+  background-color: rgba(0, 171, 0, 0.2);
+    border: 1.5px solid rgb(0, 171, 0);
+    color: white;
+    padding: 0.1rem;
+    font-family: inherit;
+    font-weight: inherit;
+    line-height: inherit;
+    text-align: center;
+    margin: 0.1rem 0.2rem;
+    font-size: 1.1rem;
+   
+}
+#fb-blank-0 input{
+  background-color : transparent;
+  border : none;
+  outline: none;
+}
