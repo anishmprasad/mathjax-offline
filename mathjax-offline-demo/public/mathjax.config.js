@@ -33,10 +33,7 @@ window.MathJax = {
 };
 
 function getRootPath() {
-	if (window.location.host.includes('development.embibe.com')) {
-		return '';
-	}
-	return '/institute/atg';
+	return '/';
 }
 
 // <script type="text/x-mathjax-config">
